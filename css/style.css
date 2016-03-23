@@ -17,3 +17,7 @@ div.item {
 .fa-plus {
     display: none;
 }
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
