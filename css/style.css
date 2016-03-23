@@ -1,5 +1,19 @@
 .hero-unit {
-    padding: 65px 60px;
-    background: #616A75;
-    font-size: 16px;
+	padding: 65px 60px;
+	background: #616A75;
+	font-size: 16px;
+}
+
+div.item {
+    display: inline-block;
+    padding: 5px;
+}
+
+.masonry img {
+    width: 150px;
+    height: 150px;
+}
+
+.fa-plus {
+    display: none;
 }
