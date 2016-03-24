@@ -21,3 +21,11 @@ div.item {
 body {
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+aside {
+	padding-left: 40px !important;
+}
+
+.col-md-7 img {
+	max-width: 100%;
+	}
