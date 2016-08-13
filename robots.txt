@@ -1,0 +1,4 @@
+User-agent: *
+
+Host: clmroofing.ca
+Sitemap: http://clmroofing.ca/sitemap.xml
