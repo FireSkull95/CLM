@@ -3,7 +3,7 @@
 	background: #616A75;
 	font-size: 16px;
 }
-#myCarousel .carousel-caption img {
+#myCarousel .item > img {
     margin: 0 auto;
 }
 
