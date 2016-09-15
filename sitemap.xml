@@ -1,99 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>http://clmroofing.ca/</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/SSAB_GreenCoat.pdf</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/about-Toronto-metal-roofing.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/accessories.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/contact.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/hestia.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/olymp.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/retro.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/siding.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/t14.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/t18.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/t35.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/t57.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/t8.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>hourly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/technology.html</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://clmroofing.ca/voestalpine%20stahl.pdf</loc>
-    <lastmod>2016-09-03T17:32:21+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://clmroofing.ca/</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/home.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/about-Toronto-metal-roofing.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/Voestalpine_colofer_metal_roofs.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/technology.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/olymp.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/hestia.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/retro.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/t8.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/t14.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/t18.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/t35.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/t57.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/siding.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/accessories.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/contact.html</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
+<url>
+  <loc>http://clmroofing.ca/voestalpine%20stahl.pdf</loc>
+  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
+</url>
 </urlset>
