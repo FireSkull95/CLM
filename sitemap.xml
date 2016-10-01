@@ -1,75 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<url>
-  <loc>http://clmroofing.ca/</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/home.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/about-Toronto-metal-roofing.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/Voestalpine_colofer_metal_roofs.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/technology.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/olymp.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/hestia.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/retro.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/t8.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/t14.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/t18.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/t35.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/t57.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/siding.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/accessories.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/contact.html</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
-<url>
-  <loc>http://clmroofing.ca/voestalpine%20stahl.pdf</loc>
-  <lastmod>2016-09-15T13:08:07+00:00</lastmod>
-</url>
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>
+        <loc>http://clmroofing.ca/</loc>
+        <lastmod>2016-10-01T14:03:08+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/home.html</loc>
+        <lastmod>2016-10-01T14:03:09+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/about-Toronto-metal-roofing.html</loc>
+        <lastmod>2016-10-01T14:03:10+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/Voestalpine_colofer_metal_roofs.html</loc>
+        <lastmod>2016-10-01T14:03:10+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/Benefits_of_a_Metal_Roof.html</loc>
+        <lastmod>2016-10-01T14:03:11+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/technology.html</loc>
+        <lastmod>2016-10-01T14:03:13+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/National_Home_Show.html</loc>
+        <lastmod>2016-10-01T14:03:13+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/Fall_Cottage_Life_Show.html</loc>
+        <lastmod>2016-10-01T14:03:14+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/Fall_Home_Show.html</loc>
+        <lastmod>2016-10-01T14:03:15+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/Hamilton_Home_Show.html</loc>
+        <lastmod>2016-10-01T14:03:15+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/London_Roofing_Show.html</loc>
+        <lastmod>2016-10-01T14:03:16+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/Spring_roofing_Show.html</loc>
+        <lastmod>2016-10-01T14:03:17+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/olymp.html</loc>
+        <lastmod>2016-10-01T14:03:17+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/hestia.html</loc>
+        <lastmod>2016-10-01T14:03:18+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/retro.html</loc>
+        <lastmod>2016-10-01T14:03:19+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/t8.html</loc>
+        <lastmod>2016-10-01T14:03:19+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/t14.html</loc>
+        <lastmod>2016-10-01T14:03:20+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/t18.html</loc>
+        <lastmod>2016-10-01T14:03:21+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/t35.html</loc>
+        <lastmod>2016-10-01T14:03:21+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/siding.html</loc>
+        <lastmod>2016-10-01T14:03:22+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/accessories.html</loc>
+        <lastmod>2016-10-01T14:03:23+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/contact.html</loc>
+        <lastmod>2016-10-01T14:03:23+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/t57.html</loc>
+        <lastmod>2016-10-01T14:03:24+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/voestalpine_stahl.pdf</loc>
+        <lastmod>2016-10-01T14:03:26+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/roof_corrosion_resistance.html</loc>
+        <lastmod>2016-10-01T14:03:26+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://clmroofing.ca/roof_UV_resistance.html</loc>
+        <lastmod>2016-10-01T14:03:26+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
 </urlset>
