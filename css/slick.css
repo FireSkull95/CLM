@@ -115,3 +115,9 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+.slick-items-wrap {
+    padding: 0 30px;
+}
+.slick-item {
+    padding:  0 15px;
+}

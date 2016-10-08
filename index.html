@@ -262,56 +262,58 @@
                     <h3 class="text-uppercase">Reviews</h3>
                 </div>
                 <div class="panel-body">
-                     <div class="slick-items" data-slick='{"slidesToShow": 3, "slidesToScroll": 1}'>
-                         <div class="slick-item">
-                             <div class="slick-img">
+                    <div class="slick-items-wrap">
+                         <div class="slick-items" >
+                             <div class="slick-item">
+                                 <div class="slick-img">
 
+                                 </div>
+                                 <div class="slick-content">
+                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
+                                 </div>
+                                 <div class="slick-author">
+                                     Serhiy
+                                 </div>
                              </div>
-                             <div class="slick-content">
-                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
-                             </div>
-                             <div class="slick-author">
-                                 Serhiy
-                             </div>
+
+
+                            <div class="slick-item">
+                                <div class="slick-img">
+
+                                </div>
+                                <div class="slick-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
+                                </div>
+                                <div class="slick-author">
+                                    Serhiy
+                                </div>
+                            </div>
+
+                            <div class="slick-item">
+                                <div class="slick-img">
+
+                                </div>
+                                <div class="slick-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
+                                </div>
+                                <div class="slick-author">
+                                    Serhiy
+                                </div>
+                            </div>
+
+                            <div class="slick-item">
+                                <div class="slick-img">
+
+                                </div>
+                                <div class="slick-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
+                                </div>
+                                <div class="slick-author">
+                                    Serhiy
+                                </div>
+                            </div>
                          </div>
-
-
-                        <div class="slick-item">
-                            <div class="slick-img">
-
-                            </div>
-                            <div class="slick-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
-                            </div>
-                            <div class="slick-author">
-                                Serhiy
-                            </div>
-                        </div>
-
-                        <div class="slick-item">
-                            <div class="slick-img">
-
-                            </div>
-                            <div class="slick-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
-                            </div>
-                            <div class="slick-author">
-                                Serhiy
-                            </div>
-                        </div>
-
-                        <div class="slick-item">
-                            <div class="slick-img">
-
-                            </div>
-                            <div class="slick-content">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque beatae cumque dolorum nobis velit. Aperiam, distinctio eos exercitationem impedit inventore ipsa ipsum, laboriosam magnam modi, nam nostrum possimus repellat. Sed!
-                            </div>
-                            <div class="slick-author">
-                                Serhiy
-                            </div>
-                        </div>
-                     </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -365,7 +367,10 @@
 <script>
     (function ($) {
        $(document).ready(function () {
-           $('.slick-items').slick();
+           $('.slick-items').slick({
+               slidesToShow: 3,
+               slidesToScroll: 3
+           });
        })
     })(jQuery);
 </script>
