@@ -122,6 +122,11 @@
     padding:  0 15px;
     outline: none !important;
 }
+.slick-img {
+    margin-bottom: 15px;
+    border-radius: 50%;
+    max-width: 150px;
+}
 .slick-content {
     margin-bottom: 15px;
 }
