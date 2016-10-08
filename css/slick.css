@@ -122,3 +122,10 @@
     padding:  0 15px;
     outline: none !important;
 }
+.slick-content {
+    margin-bottom: 15px;
+}
+.slick-author {
+    color: #337ab7;
+}
+
