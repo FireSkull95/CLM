@@ -120,4 +120,5 @@
 }
 .slick-item {
     padding:  0 15px;
+    outline: none !important;
 }
