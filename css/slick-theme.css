@@ -30,6 +30,8 @@
 
     display: block;
 
+    color: #000;
+
     width: 20px;
     height: 20px;
     padding: 0;
@@ -39,7 +41,6 @@
 
     cursor: pointer;
 
-    color: transparent;
     border: none;
     outline: none;
     background: transparent;
@@ -49,7 +50,7 @@
 .slick-next:hover,
 .slick-next:focus
 {
-    color: transparent;
+    color: #5a5a5a;
     outline: none;
     background: transparent;
 }
