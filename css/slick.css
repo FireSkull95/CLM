@@ -124,9 +124,13 @@
 }
 .slick-img {
     margin-bottom: 15px;
+}
+.slick-img img {
     border-radius: 50%;
     max-width: 150px;
+    margin: 0 auto;
 }
+
 .slick-content {
     margin-bottom: 15px;
 }
