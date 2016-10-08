@@ -2,7 +2,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url('../../../Downloads/slick-1.6.0/slick-1.6.0/slick/ajax-loader.gif') center center no-repeat;
+    background: #fff url('../images/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -12,8 +12,11 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url('../../../Downloads/slick-1.6.0/slick-1.6.0/slick/fonts/slick.eot');
-    src: url('../../../Downloads/slick-1.6.0/slick-1.6.0/slick/fonts/slick.eot?#iefix') format('embedded-opentype'), url('../../../Downloads/slick-1.6.0/slick-1.6.0/slick/fonts/slick.woff') format('woff'), url('../../../Downloads/slick-1.6.0/slick-1.6.0/slick/fonts/slick.ttf') format('truetype'), url('../../../Downloads/slick-1.6.0/slick-1.6.0/slick/fonts/slick.svg#slick') format('svg');
+    src: url('../fonts/slick.eot');
+    src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/slick.woff') format('woff'),
+        url('../fonts/slick.ttf') format('truetype'),
+        url('../fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
