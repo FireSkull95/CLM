@@ -1,0 +1,112 @@
+<svg id="house3" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd;" viewBox="0 0 1700 950" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+					 <g id="стіна">
+					  <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+					  <g id="_212086531408">
+					   <polygon class="wall-color" points="57,876 70,876 644,876 644,535 57,535 " style="fill: rgb(236, 230, 218);"></polygon>
+					   <polygon class="wall-color" points="1278,884 1278,731 1295,741 1295,708 1548,708 1548,884 " style="fill: rgb(236, 230, 218);"></polygon>
+					   <polygon class="wall-color" points="875,906 1278,906 1278,731 1078,616 858,740 875,741 " style="fill: rgb(236, 230, 218);"></polygon>
+					  </g>
+					 </g>
+					 <g id="колір_x0020_дах">
+					  <metadata id="CorelCorpID_1Corel-Layer"></metadata>
+					  <g id="_212086530192">
+					   <polygon class="roof-color str0" points="350,362 465,429 579,495 350,495 121,495 236,429 " style="fill: rgb(189, 91, 47);"></polygon>
+					   <polygon class="roof-color str0" points="578,494 664,523 36,523 123,494 " style="fill: rgb(189, 91, 47);"></polygon>
+					   <polygon class="roof-color str0" points="941,523 664,523 578,494 579,495 465,429 414,399 941,399 " style="fill: rgb(189, 91, 47);"></polygon>
+					   <path class="roof-color str1" d="M944 399l-46 0 0 -6 46 0 0 6zm-67 0l-463 0 -11 -6 474 0 0 6z" style="fill: rgb(189, 91, 47);"></path>
+					   <polygon class="roof-color str1" points="857,728 1078,602 1295,728 1295,741 1078,616 857,741 " style="fill: rgb(189, 91, 47);"></polygon>
+					   <polygon class="roof-color" points="644,728 857,728 1077,602 1295,728 1295,696 1662,696 1437,570 918,570 918,677 644,677 " style="fill: rgb(189, 91, 47);"></polygon>
+					   <rect class="roof-color str1" x="644" y="728" width="213.708" height="12.3358" style="fill: rgb(189, 91, 47);"></rect>
+					   <polygon id="Покрівля1" class="roof-color str1" points="936,760 1217,760 1217,712 936,712 " style="fill: rgb(189, 91, 47);"></polygon>
+					   <polygon class="roof-color str1" points="1440,563 918,563 918,570 1440,570 " style="fill: rgb(189, 91, 47);"></polygon>
+					  </g>
+					 </g>
+					 <g id="колір_x0020_вікна">
+					  <metadata id="CorelCorpID_2Corel-Layer"></metadata>
+					  <g id="_212086517904">
+					   <polygon class="window-color" points="982,905 1171,905 1171,764 982,764 " style="fill: rgb(255, 253, 246);"></polygon>
+					   <polygon class="window-color" points="403,589 589,589 591,586 401,586 " style="fill: rgb(255, 253, 246);"></polygon>
+					   <path class="window-color" d="M401 582c24,-5 166,-6 190,0l0 2 -190 0 0 -2z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M406 681l58 0 2 0 0 43 60 0 0 -43 3 0 57 0 3 0 0 -3 0 -86 0 -3 -3 0 -57 0 -3 0 -2 0 -118 0 -2 0 0 3 0 86 0 3 2 0zm123 -5c0,-49 0,-49 0,-81 27,0 28,0 55,0 0,30 0,39 0,81l-55 0zm-60 0c0,-45 0,-50 0,-81 27,0 28,0 55,0 0,31 0,35 0,81l-55 0zm-5 0l-55 0c0,-45 0,-50 0,-81 27,0 28,0 55,0 0,31 0,35 0,81z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M188 843l-84 0 0 -253c26,0 58,0 84,0l0 253zm-5 -41c-32,0 -42,0 -73,0 0,27 0,8 0,35 31,0 41,0 73,0 0,-30 0,-5 0,-35zm-73 -78c30,0 42,0 73,0 0,-27 0,-8 0,-33l-73 0c0,27 0,4 0,33zm73 -37l0 -92 -73 0 0 92 73 0zm0 111c0,-38 0,-46 0,-70 -26,0 -48,0 -73,0 0,24 0,29 0,70 25,0 47,0 73,0z" style="fill: rgb(255, 253, 246);"></path>
+					   <rect class="window-color" x="1504" y="754" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <polygon class="window-color" points="1437,754 1505,754 1507,751 1435,751 " style="fill: rgb(255, 253, 246);"></polygon>
+					   <path class="window-color" d="M1435 747c24,-6 48,-6 72,0l0 2 -72 0 0 -2z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M1438 754l66 0 0 91 -66 0 0 -91zm6 5l54 0 0 81 -54 0 0 -81z" style="fill: rgb(255, 253, 246);"></path>
+					   <rect class="window-color" x="1416" y="754" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <polygon class="window-color" points="1307,748 1390,748 1393,748 1393,751 1393,887 1389,887 1309,887 1304,887 1304,751 1304,748 " style="fill: rgb(255, 253, 246);"></polygon>
+					   <rect class="window-color" x="487" y="754" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <polygon class="window-color" points="420,754 488,754 490,751 418,751 " style="fill: rgb(255, 253, 246);"></polygon>
+					   <path class="window-color" d="M417 747c25,-6 49,-6 73,0l0 2 -73 0 0 -2z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M420 754l67 0 0 91 -67 0 0 -91zm6 5l55 0 0 81 -55 0 0 -81z" style="fill: rgb(255, 253, 246);"></path>
+					   <rect class="window-color" x="399" y="754" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <rect class="window-color" x="305" y="754" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <polygon class="window-color" points="239,754 307,754 309,751 237,751 " style="fill: rgb(255, 253, 246);"></polygon>
+					   <path class="window-color" d="M236 747c24,-6 49,-6 73,0l0 2 -73 0 0 -2z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M239 754l67 0 0 91 -67 0 0 -91zm6 5l55 0 0 81 -55 0 0 -81z" style="fill: rgb(255, 253, 246);"></path>
+					   <rect class="window-color" x="218" y="754" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <rect class="window-color" x="305" y="588" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <polygon class="window-color" points="239,588 307,588 309,584 237,584 " style="fill: rgb(255, 253, 246);"></polygon>
+					   <path class="window-color" d="M236 581c24,-6 49,-6 73,0l0 2 -73 0 0 -2z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M239 588l67 0 0 91 -67 0 0 -91zm6 5l55 0 0 81 -55 0 0 -81z" style="fill: rgb(255, 253, 246);"></path>
+					   <rect class="window-color" x="218" y="588" width="21.7339" height="90.4074" style="fill: rgb(255, 253, 246);"></rect>
+					   <path class="window-color" d="M1324 612l53 0 0 44 -53 0 0 -44zm5 5l43 0 0 34 -43 0 0 -34z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M761 440l53 0 0 44 -53 0 0 -44zm5 5l42 0 0 34 -42 0 0 -34z" style="fill: rgb(255, 253, 246);"></path>
+					   <path class="window-color" d="M629 440l53 0 0 44 -53 0 0 -44zm5 5l43 0 0 34 -43 0 0 -34z" style="fill: rgb(255, 253, 246);"></path>
+					  </g>
+					  <polygon class="window-color" points="1529,611 1598,649 1594,657 1524,619 " style="fill: rgb(255, 253, 246);"></polygon>
+					 </g>
+					 <g id="колір_x0020_водосток">
+					  <metadata id="CorelCorpID_3Corel-Layer"></metadata>
+					  <g id="_212086565968">
+					   <polygon class="stream-color" points="676,535 25,535 25,523 676,523 " style="fill: rgb(120, 45, 42);"></polygon>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 108.309 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="42" y="557" width="14.1599" height="2.91401" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="42" y="732" width="14.1599" height="2.91401" style="fill: rgb(120, 45, 42);"></rect>
+					   <path class="stream-color" d="M42 552l3 -18c-2,-3 -4,-8 -4,-11l-9 0c0,4 -2,8 -4,12l2 16c0,106 0,219 0,324l-25 14 7 11 30 -18c0,-107 0,-223 0,-330z" style="fill: rgb(120, 45, 42);"></path>
+					   <rect class="stream-color" x="28" y="554" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="28" y="754" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="28" y="687" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="28" y="621" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <polygon class="stream-color" points="44,882 29,873 28,875 42,884 " style="fill: rgb(120, 45, 42);"></polygon>
+					   <rect class="stream-color" transform="matrix(3.99479E-014 0.716791 -3.11283 3.91776E-014 24.5807 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="28" y="821" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <polygon class="stream-color" points="944,535 680,535 680,523 944,523 " style="fill: rgb(120, 45, 42);"></polygon>
+					   <polygon class="stream-color" points="1295,708 1674,708 1674,696 1295,696 " style="fill: rgb(120, 45, 42);"></polygon>
+					   <rect class="stream-color" x="1642" y="730" width="14.1599" height="2.91401" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="1642" y="845" width="14.1599" height="2.91401" style="fill: rgb(120, 45, 42);"></rect>
+					   <path class="stream-color" d="M1656 725l-3 -18c2,-3 4,-8 4,-11l9 0c0,4 2,8 4,11l-2 17c0,106 0,47 0,152l25 14 -6 11 -31 -18c0,-107 0,-51 0,-158z" style="fill: rgb(120, 45, 42);"></path>
+					   <rect class="stream-color" x="1654" y="727" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="1654" y="860" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="1654" y="794" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 179.019 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 249.73 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 320.442 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 391.154 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 461.865 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 532.577 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 603.288 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 675.636 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="644" y="557" width="14.1599" height="2.91401" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="644" y="732" width="14.1599" height="2.91401" style="fill: rgb(120, 45, 42);"></rect>
+					   <path class="stream-color" d="M658 552l-3 -18c2,-3 4,-8 4,-11l9 0c0,4 2,8 4,12l-2 16c0,106 0,219 0,324l25 14 -6 11 -31 -18c0,-107 0,-223 0,-330z" style="fill: rgb(120, 45, 42);"></path>
+					   <rect class="stream-color" x="656" y="554" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="656" y="754" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="656" y="687" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" x="656" y="621" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <polygon class="stream-color" points="657,882 671,873 672,875 658,884 " style="fill: rgb(120, 45, 42);"></polygon>
+					   <rect class="stream-color" x="656" y="821" width="15.3904" height="2.05922" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 730.528 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 801.24 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 871.952 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 944.299 521.94)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 1530.75 695.13)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 1601.46 695.13)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 1673.81 695.13)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 1460.03 695.13)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 1389.56 695.13)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					   <rect class="stream-color" transform="matrix(-3.99479E-014 0.716791 3.11283 3.91776E-014 1319.1 695.13)" width="19.3288" height="1.25315" style="fill: rgb(120, 45, 42);"></rect>
+					  </g>
+					 </g>
+					</svg>
