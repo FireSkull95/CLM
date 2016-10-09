@@ -47,3 +47,6 @@ aside {
      color: #fff;
      background-color: #000;
 }
+.inline {
+    display: inline !important;
+}
