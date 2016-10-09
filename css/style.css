@@ -56,3 +56,6 @@ aside {
 .flex-viewport {
     z-index: 2;
 }
+.flex-direction-nav li a {
+    z-index: 3;
+}
