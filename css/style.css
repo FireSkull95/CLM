@@ -50,3 +50,9 @@ aside {
 .inline {
     display: inline !important;
 }
+.house .house-bg-layer {
+    z-index: 1;
+}
+.flex-viewport {
+    z-index: 1;
+}
