@@ -59,3 +59,24 @@ aside {
 .flex-direction-nav li a {
     z-index: 3;
 }
+
+label.radio.inline.control-label.color-box span {
+    border: 1px solid transparent;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    padding: 0;
+    margin-right: 5px;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+
+label.radio.inline.control-label.color-box input {
+    display: none;
+}
+
+label.radio.inline.control-label.color-box input:checked + span {
+    border: 1px solid white;
+    box-shadow: 0 0 0 2px gray;
+}
