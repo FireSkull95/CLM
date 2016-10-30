@@ -80,6 +80,9 @@ label.radio.inline.control-label.color-box input:checked + span {
     border: 1px solid white;
     box-shadow: 0 0 0 2px gray;
 }
+.house {
+    position: relative;
+}
 .house .house-top-layer {
     position: absolute;
     top: 0;
