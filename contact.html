@@ -181,6 +181,7 @@
 <script>
     (function($){
         $(document).ready(function(){
+            var l = Ladda.create(document.querySelector('.ladda-button') );
             $('#f-contact-us')
                 .parsley({
                     successClass: "has-success",
@@ -192,7 +193,6 @@
                     errorTemplate: "<span></span>"
                 })
                 .on('form:submit', function() {
-                    var l = Ladda.create(document.querySelector('.ladda-buttong') );
                     l.start();
                     $.ajax({
                         url: "http://formspree.io/serhiy.guivan@gmail.com",
