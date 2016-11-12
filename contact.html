@@ -192,7 +192,7 @@
                     errorTemplate: "<span></span>"
                 })
                 .on('form:submit', function() {
-                    var l = Ladda.create($('.ladda-button'));
+                    var l = Ladda.create(document.querySelector('.ladda-buttong') );
                     l.start();
                     $.ajax({
                         url: "http://formspree.io/serhiy.guivan@gmail.com",
