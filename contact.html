@@ -191,8 +191,7 @@
                     errorsWrapper: "<span class='help-block'></span>",
                     errorTemplate: "<span></span>"
                 })
-                .on('form:submit', function(e) {
-                    e.preventDefault();
+                .on('form:submit', function() {
                     var l = Ladda.create($('.ladda-button'));
                     l.start();
                     $.ajax({
