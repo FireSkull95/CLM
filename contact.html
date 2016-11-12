@@ -27,8 +27,9 @@
     <![endif]-->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/ladda-bootstrap/0.9.4/ladda-themeless.min.css" rel="stylesheet">
     <link href="css/lightbox.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body style="padding-top: 20px; padding-bottom: 20px">
 <div class="container">
@@ -153,7 +154,7 @@
                             <label for="f-message">Message</label>
                             <textarea class="form-control" name="message" id="f-message" placeholder="Enter your message" data-parsley-maxlength="600" required=""></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Send</button>
+                        <button type="submit" class="btn btn-primary ladda-button" data-style="expand-right"><span class="ladda-label">Send</span></button>
                     </form>
                 </div>
             </div>
@@ -175,6 +176,8 @@
 <script src="js/lightbox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.6.0/parsley.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ladda-bootstrap/0.9.4/spin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ladda-bootstrap/0.9.4/ladda.jquery.min.js"></script>
 <script>
     (function($){
         $(document).ready(function(){
@@ -189,7 +192,8 @@
                     errorTemplate: "<span></span>"
                 })
                 .on('form:submit', function() {
-
+                    var l = Ladda.create($('.ladda-button'));
+                    l.start();
                     $.ajax({
                         url: "http://formspree.io/serhiy.guivan@gmail.com",
                         method: "POST",
@@ -199,7 +203,12 @@
                         },
                         dataType: "json",
                         success: function(){
-                            toastr.success('Success', 'The message send!')
+                            toastr.success('Success', 'The message send!');
+                            l.stop();
+                        },
+                        error: function(){
+                            toastr.error('Error', 'Oops something went wrong');
+                            l.stop();
                         }
                     });
                 return false;
