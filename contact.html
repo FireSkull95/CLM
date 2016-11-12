@@ -144,16 +144,14 @@
                 </div>
 
                 <div class="panel-body">
-                    <form  id="f-contact-us">
-                        <input type="hidden" name="_subject" value="New contact message!" />
-                        <input type="hidden" name="_cc" value="vzyanko@gmail.com" />
+                    <form  id="f-contact-us" data-parsley-validate="">
                         <div class="form-group">
                             <label for="f-email">E-mail</label>
-                            <input type="email" class="form-control" name="email" id="f-email" placeholder="Enter your e-mail address">
+                            <input type="email" class="form-control" name="email" id="f-email" placeholder="Enter your e-mail address" data-parsley-maxlength="255" required="">
                         </div>
                         <div class="form-group">
                             <label for="f-message">Message</label>
-                            <textarea class="form-control" name="message" id="f-message" placeholder="Enter your message"></textarea>
+                            <textarea class="form-control" name="message" id="f-message" placeholder="Enter your message" data-parsley-maxlength="600" required=""></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary">Send</button>
                     </form>
@@ -176,23 +174,35 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parsley.js/2.6.0/parsley.min.js"></script>
 <script>
     (function($){
         $(document).ready(function(){
-            $('#f-contact-us').submit(function(e){
-                e.preventDefault();
-                $.ajax({
-                    url: "http://formspree.io/serhiy.guivan@gmail.com",
-                    method: "POST",
-                    data: {
-                        email: $('input[name="email"]').val(),
-                        message: $('textarea[name="message"]').val()
+            $('#f-contact-us')
+                .parsley({
+                    successClass: "has-success",
+                    errorClass: "has-error",
+                    classHandler: function(el) {
+                        return el.$element.closest(".form-group");
                     },
-                    dataType: "json",
-                    success: function(){
-                        toastr.success('Success', 'The message send!')
-                    }
-                });
+                    errorsWrapper: "<span class='help-block'></span>",
+                    errorTemplate: "<span></span>"
+                })
+                .on('form:submit', function() {
+
+                    $.ajax({
+                        url: "http://formspree.io/serhiy.guivan@gmail.com",
+                        method: "POST",
+                        data: {
+                            email: $('input[name="email"]').val(),
+                            message: $('textarea[name="message"]').val()
+                        },
+                        dataType: "json",
+                        success: function(){
+                            toastr.success('Success', 'The message send!')
+                        }
+                    });
+                return false;
             });
         });
     })(jQuery)
