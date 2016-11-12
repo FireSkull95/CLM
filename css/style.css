@@ -99,3 +99,20 @@ label.radio.inline.control-label.color-box input:checked + span {
     left: 0;
     z-index: -1;
 }
+#f-message {
+    min-height: 151px;
+    resize: vertical;
+}
+
+.margin-top-5 {
+    margin-top: 5px !important;
+}
+.margin-bottom-5 {
+    margin-bottom: 5px !important;
+}
+.margin-bottom-20 {
+    margin-bottom: 20px !important;
+}
+.no-margin {
+    margin: 0 !important;
+}
