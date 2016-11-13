@@ -195,12 +195,12 @@
                 .on('form:submit', function() {
                     l.start();
                     $.ajax({
-                        url: "http://formspree.io/serhiy.guivan@gmail.com",
+                        url: "http://formspree.io/vzyanko@gmail.com",
                         method: "POST",
                         data: {
                             email: $('input[name="email"]').val(),
                             message: $('textarea[name="message"]').val(),
-                            _cc: 'vzyanko@gmail.com'
+                            _cc: 'zank@ukr.net'
                         },
                         dataType: "json",
                         success: function(){
