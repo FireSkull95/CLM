@@ -34,6 +34,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link href="css/toastr.min.css" rel="stylesheet">
+    <link href="css/ladda-themeless.min.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/lightbox.min.css" rel="stylesheet">
@@ -359,10 +361,10 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3 style="margin: 5px 0px">HOW TO FIND US:</h3>
+                    <h3 class="margin-top-5 margin-bottom-5">HOW TO FIND US:</h3>
                 </div>
                 <div class="panel-body">
                     <p class="lead">6965 Davand Dr. Unit 7 <br>Mississauga, ON. <br>L5T 1Y6</p>
@@ -381,10 +383,31 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-8">
-            <div class="embed-responsive embed-responsive-16by9">
+        <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9 margin-bottom-20">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27451.29836698489!2d-79.69106137074039!3d43.680151531638124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b3ee722ac86e5%3A0xb31717becad82109!2s6965+Davand+Dr+%237%2C+Mississauga%2C+ON+L5T+1Y6%2C+Canada!5e0!3m2!1sen!2sua!4v1458588534343"
                         allowfullscreen="allowfullscreen"></iframe>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="margin-top-5 margin-bottom-5">Contact Us</h3>
+                </div>
+
+                <div class="panel-body">
+                    <form  id="f-contact-us" data-parsley-validate="">
+                        <div class="form-group">
+                            <label for="f-email">E-mail</label>
+                            <input type="email" class="form-control" name="email" id="f-email" placeholder="Enter your e-mail address" data-parsley-maxlength="255" required="">
+                        </div>
+                        <div class="form-group">
+                            <label for="f-message">Message</label>
+                            <textarea class="form-control" name="message" id="f-message" placeholder="Enter your message" data-parsley-maxlength="600" required=""></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary ladda-button" data-style="expand-right"><span class="ladda-label">Send</span></button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -401,6 +424,49 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/toastr.min.js"></script>
+<script src="js/parsley.min.js"></script>
+<script src="js/spin.min.js"></script>
+<script src="js/ladda.min.js"></script>
+<script>
+    (function($){
+        $(document).ready(function(){
+            var l = Ladda.create(document.querySelector('.ladda-button') );
+            $('#f-contact-us')
+                    .parsley({
+                        successClass: "has-success",
+                        errorClass: "has-error",
+                        classHandler: function(el) {
+                            return el.$element.closest(".form-group");
+                        },
+                        errorsWrapper: "<span class='help-block'></span>",
+                        errorTemplate: "<span></span>"
+                    })
+                    .on('form:submit', function() {
+                        l.start();
+                        $.ajax({
+                            url: "http://formspree.io/vzyanko@gmail.com",
+                            method: "POST",
+                            data: {
+                                email: $('input[name="email"]').val(),
+                                message: $('textarea[name="message"]').val(),
+                                _cc: 'myron.konyk@gmail.com'
+                            },
+                            dataType: "json",
+                            success: function(){
+                                toastr.success('Success', 'The message send!');
+                                l.stop();
+                            },
+                            error: function(){
+                                toastr.error('Error', 'Oops something went wrong');
+                                l.stop();
+                            }
+                        });
+                        return false;
+                    });
+        });
+    })(jQuery)
+</script>
 <script>
     (function ($) {
        $(document).ready(function () {
